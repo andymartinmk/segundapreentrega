@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: f3f3f5;
+}
+
+.encabezado {
+    background-color: #f3f2f5;
+    padding: 0;
+}
+
+.menuNav a {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+max-width: 100%;
+}
+
+.encabezado {
+    border-top: 100px;
+}
+
+.containerHeader {
+    max-width: 100%;
+}
+
+.card {
+    border: none;
+}
+
+/* otra forma pero no me sirvio
+.imgCard {
+   width: auto;
+height: auto;
+max-width: 300px;
+max-height: 300px;
+}*/
+
+/*.imgCard {
+
+    width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border: 1px solid lightgray;
+       
+}*/
+
+.btnLinen {
+    background-color: #f3f2f5;
+    color: #333;
+    border: none;
+
+}
+
+.btnLinen:hover {
+    background-color: #C8C8C8;
+    color: #ffffff;
+    border: none;
+}
+
+
+.productos {
+    background-color: #f3f2f5;
+    color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3rem;
+    border: 10px;
+    padding: 10px;
+}
+
+
+.menuNav a:hover {
+    background-color: #C8C8C8;
+    color: #FAF2E9;
+
+}
+
+.divAcerca {
+    padding: 10px;
+    border: 10px;
+    padding-left: 20px;
+border-left: 20px;
+}
+
+.logo {
+    width: 150px;
+
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-weight: 600;
+    margin: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 400;
+    margin: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+h3 {
+    margin: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-weight: 100;
+}
+
+h4 {
+    margin: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-weight: 100;
+
+}
+
+p {
+    margin: 20px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    font-weight: 100;
+}
+
+
+.contenedorBlog {
+    margin: 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.imgBlog {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.imgportada {
+    position: static;
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+
+}
+
+.imgAcerca {
+    position: static;
+    display: block;
+    margin: auto;
+    width: 60%;
+    height: auto;
+    padding: 20px;
+}
+
+.imgtienda {
+    display: inline-block;
+    width: 25%;
+    height: auto;
+}
+
+.aBlog {
+    background-color: #333;
+    color: #ffff;
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+/*iframe {
+    display: block;
+    margin: auto;
+}*/
+
+.footerH {
+    text-align: center;
+}
+
+footer {
+    background-color: #f3f2f5;
+    margin: 0%;
+    padding: 0%;
+    border-top: none;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    
+}
+
+footer ul a li {
+    color: black;
+}
+
+form {
+    margin-top: 30px;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #333;
+    font-size: 20px;
+}
+
+
+
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.botonForm {
+    background-color: #333;
+    color: #ffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.spanFont {
+    font-weight: bold;
+}
+
+
+.cajaPrincipal {
+    width: 100%;
+    padding: 20px;
+
+}
+
+.imgBlog {
+    width: fit-content;
+	height: 250px;
+	object-fit: cover;
+	border: 1px solid lightgray;
+}
+
+
+.blogForm {
+    padding: 15px;
+    border: 10px;
+}
+/*........para responsive prueba.......*/
+
+@media (max-width: 500px) {
+    .logo {
+        max-width: 50px;
+    }
+}
