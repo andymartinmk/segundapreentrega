@@ -1,0 +1,54 @@
+@mixin anclas {
+    text-decoration: none;
+    color: $color-gris;
+}
+
+.encabezado {
+    background-color: #f3f2f5;
+    padding: 0;
+}
+
+.menuNav a {
+    text-transform: uppercase;
+    @include anclas; 
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+
+.encabezado {
+    border-top: 100px;
+}
+
+.containerHeader {
+    max-width: 100%;
+}
+
+.menuNav a:hover {
+    background-color: #C8C8C8;
+    color: #FAF2E9;
+    background-color: #C8C8C8;
+    color: #FAF2E9;
+}
+
+.divAcerca {
+    padding: 10px;
+    border: 10px;
+    padding-left: 20px;
+    border-left: 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
